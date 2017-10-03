@@ -1,3 +1,17 @@
+//This is an Eclipse plugin program
+//It helps to check if a function is s-graph
+//by Le Zhang
+
+//S-graph:
+//1.A directed acyclic graph
+//2.Has unique entry and unique exit
+//3.Three kind of nodes:
+//	with at most one outgoing edge
+//	with at most two outgoint edge
+//	function nodes
+//4.For every nodes B, it has a subgraph for which the only entry is B itself, and have only one exit.
+
+
 package s_graph;
 
 import java.io.PrintWriter;
